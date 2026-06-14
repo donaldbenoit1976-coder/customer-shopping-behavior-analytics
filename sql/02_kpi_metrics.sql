@@ -5,23 +5,42 @@
 
 -- Total Revenue
 SELECT
-    SUM(revenue) AS total_revenue
-FROM clean_transactions;
+  ROUND(
+      SUM(Quantity * UnitPrice),
+      2
+  ) AS total_revenue
+FROM `data_analysis_project1.retail_analytics.online_retail_clean`;
 
--- Total Number of Records
+-- Total Number of Customers
 SELECT
-    COUNT(*) AS total_records
-FROM clean_transactions;
+    COUNT(DISTINCT CustomerID) AS unique_customers
+FROM `data_analysis_project1.retail_analytics.online_retail_clean`
+WHERE CustomerID IS NOT NULL;
 
--- Average Transaction Value
+-- How Many Orders Were Placed
 SELECT
-    AVG(revenue) AS avg_transaction_value
-FROM clean_transactions;
+    COUNT(DISTINCT InvoiceNo) AS total_orders
+FROM `data_analysis_project1.retail_analytics.online_retail_clean`;
 
--- Revenue by Customer
+-- Average Order Value (AVO)
+WITH order_totals AS (
+    SELECT
+        InvoiceNo,
+        SUM(Quantity * UnitPrice) AS order_value
+    FROM `data_analysis_project1.retail_analytics.online_retail_clean`
+    GROUP BY InvoiceNo
+)
+
 SELECT
-    customer_id,
-    SUM(revenue) AS customer_revenue
-FROM clean_transactions
-GROUP BY customer_id
-ORDER BY customer_revenue DESC;
+    ROUND(AVG(order_value),2) AS average_order_value
+FROM order_totals;
+
+-- Revenue by Customer for the top 10
+SELECT
+    CustomerID,
+    ROUND(SUM(Quantity * UnitPrice),2) AS revenue
+FROM `data_analysis_project1.retail_analytics.online_retail_clean`
+WHERE CustomerID IS NOT NULL
+GROUP BY CustomerID
+ORDER BY revenue DESC
+LIMIT 10;
