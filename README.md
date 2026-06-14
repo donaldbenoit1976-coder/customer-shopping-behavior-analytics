@@ -61,8 +61,11 @@ Key metrics calculated:
 - SQL (data cleaning & analysis)
 - GitHub (version control & portfolio hosting)
 - PowerPoint (presentation of findings)
-- Tableau (dashboards for visual storytelling)
 - Word (documentation of findings)
   
 ---
 
+## Dashboards & Reporting
+- Interactive Tableau dashboard completed for revenue and KPI visualization
+- Executive PowerPoint presentation (12 slides) summarizing key insights
+- Detailed written analysis document supporting business findings
