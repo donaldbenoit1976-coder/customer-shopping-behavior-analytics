@@ -1,32 +1,68 @@
-# customer-shopping-behavior-analytics
-End-to-end data analytics project using SQL and Tableau to clean, analyze, and visualize business data for actionable insights and KPI reporting.
-📊 Data Analysis Project: KPI & Revenue Insights
-Overview
+# 📊 Revenue & KPI Analytics Project
 
-This project explores a large transactional dataset to identify key business metrics, revenue trends, and operational insights using SQL-based analysis.
+## Business Problem
+Organizations need clear visibility into revenue performance, customer contribution, and transactional behavior in order to make data-driven decisions. This project analyzes a transactional dataset to extract key business metrics and identify revenue patterns.
 
-Objectives
+---
+
+## Objective
+The goal of this analysis is to:
 - Clean and validate raw transactional data
-- Calculate total revenue and record volume
-- Identify trends and anomalies in customer behavior
-- Build KPI-level summary metrics for business reporting
-Tools & Technologies
-- SQL (data extraction and analysis)
-- Excel / CSV (data inspection)
-- GitHub (version control and portfolio hosting)
-- Tableau for visualizations and Dashboards
-Key Metrics
-- Total Revenue: 10,642,110.80
-- Total Records: 524,878
-Project Structure
-- /data → raw dataset files
-- /sql → SQL queries used for analysis
-- /outputs → cleaned results and summaries
-Insights
-- Revenue concentration analysis reveals key performance drivers
-- Data quality checks identified inconsistencies resolved during cleaning
-- KPI outputs are structured for dashboarding in Tableau
-Next Steps
-- Build Tableau dashboard for visualization
-- Expand analysis with customer segmentation
-- Add predictive modeling layer (optional)
+- Establish core KPI metrics (revenue, volume, averages)
+- Identify high-value customers and revenue distribution patterns
+- Structure data for dashboarding and reporting tools (e.g., Tableau)
+
+---
+
+## Dataset Overview
+- Total Records: **524,878**
+- Total Revenue: **$10,642,110.80**
+
+This dataset represents transactional activity used for business performance analysis.
+
+---
+
+## Methodology
+
+### 1. Data Cleaning (SQL)
+- Removed invalid or null revenue records
+- Checked for duplicate transactions
+- Standardized dataset into a clean analytical view (`clean_transactions`)
+
+### 2. KPI Development
+Key metrics calculated:
+- Total Revenue
+- Total Transaction Count
+- Average Transaction Value
+- Revenue by Customer
+
+### 3. Revenue Analysis
+- Customer segmentation by revenue contribution
+- Daily revenue trend analysis
+- Identification of top revenue-generating customers
+
+---
+
+## Key Insights
+- Revenue is concentrated among a small subset of high-value customers
+- Transaction distribution indicates a strong mid-tier revenue segment
+- Data structure supports scalable dashboard development in Tableau
+
+---
+
+## SQL Scripts
+- `sql/01_data_cleaning.sql` → Data preparation and validation
+- `sql/02_kpi_metrics.sql` → Core business KPIs
+- `sql/03_revenue_analysis.sql` → Trend and segmentation analysis
+
+---
+
+## Tools Used
+- SQL (data cleaning & analysis)
+- GitHub (version control & portfolio hosting)
+- PowerPoint (presentation of findings)
+- Tableau (dashboards for visual storytelling)
+- Word (documentation of findings)
+  
+---
+
