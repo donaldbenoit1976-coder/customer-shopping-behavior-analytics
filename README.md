@@ -70,4 +70,13 @@ Key metrics calculated:
 - Executive PowerPoint presentation (12 slides) summarizing key insights
 - Detailed written analysis document supporting business findings
 
-  ---
+---
+
+## Portfolio Artifacts
+
+- 📊 GitHub Repository: SQL-based data cleaning and analysis pipeline
+- 📈 Tableau Dashboard: Interactive KPI and revenue visualization
+- 🧾 Executive Report: Full written analysis and business interpretation
+- 🎤 Presentation Deck: 12-slide executive summary for stakeholders
+
+---
