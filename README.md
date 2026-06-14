@@ -69,3 +69,5 @@ Key metrics calculated:
 - Interactive Tableau dashboard completed for revenue and KPI visualization
 - Executive PowerPoint presentation (12 slides) summarizing key insights
 - Detailed written analysis document supporting business findings
+
+  ---
