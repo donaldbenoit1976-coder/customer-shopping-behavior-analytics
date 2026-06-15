@@ -80,3 +80,9 @@ Key metrics calculated:
 - 🎤 Presentation Deck: 12-slide executive summary for stakeholders
 
 ---
+
+## Live Portfolio Links
+- Tableau Dashboard: public.tableau.com/app/profile/donald.benoit/vizzes
+- Full Project Repository: This GitHub page
+
+---
