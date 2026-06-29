@@ -72,6 +72,8 @@ Key metrics calculated:
   
 ---
 
+![Geographic & Portfolio Insights](Tableau/Dashboard2.png)
+
 ## Dashboards & Reporting
 - Interactive Tableau dashboard completed for revenue and KPI visualization
 - Executive PowerPoint presentation (12 slides) summarizing key insights
