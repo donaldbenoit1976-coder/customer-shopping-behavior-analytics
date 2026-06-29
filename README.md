@@ -1,7 +1,7 @@
 ![Project Banner](Presentation/Presentation1.png)
-![SQL](https://img.shields.io/badge/SQL-BigQuery-blue) | 
-![Tableau](https://img.shields.io/badge/Tableau-Public-orange) | 
-![Status](https://img.shields.io/badge/Project-Complete-success) | 
+![SQL](https://img.shields.io/badge/SQL-BigQuery-blue) *
+![Tableau](https://img.shields.io/badge/Tableau-Public-orange) * 
+![Status](https://img.shields.io/badge/Project-Complete-success) * 
 ![License](https://img.shields.io/badge/Portfolio-Public-brightgreen) 
 
 # 📊 Revenue & KPI Analytics Project
