@@ -48,7 +48,7 @@ Key metrics calculated:
 - Identification of top revenue-generating customers
 
 ---
-![Executive Portfolio Overview](Tableau/Screenshot 2026-06-13 182127.png)
+![Executive Portfolio Overview](Tableau/Dashboard1.png)
 
 ## Key Insights
 - Revenue is concentrated among a small subset of high-value customers
