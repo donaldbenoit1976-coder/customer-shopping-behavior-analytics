@@ -1,3 +1,5 @@
+![Project Banner](Presentation/Presentation1.png)
+
 # 📊 Revenue & KPI Analytics Project
 
 ## Business Problem
