@@ -91,8 +91,8 @@ Key metrics calculated:
 ---
 ## Connect With Me
 
-- **LinkedIn:** *(add your LinkedIn URL)*
-- **Tableau Public:** *(public.tableau.com/app/profile/donald.benoit/vizzes)*
+- **LinkedIn:** *(www.linkedin.com/in/donald-benoit-960700413)*
+- **Tableau Public:** *(https://public.tableau.com/app/profile/donald.benoit/vizzes)*
 - Full Project Repository: This GitHub page
 
 Thank you for taking the time to review this project.
